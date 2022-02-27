@@ -7,7 +7,7 @@ class Portfolio extends React.Component{
   render (){
     return (
         <div>
-            <h1>Sofen Chowdhury</h1>
+            <h1>Sofen Chowdhury Portfolio</h1>
         </div>
     );
   }
