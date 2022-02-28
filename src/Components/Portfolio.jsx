@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import './Components/Portfolio'
-import React from 'react';
+import React from "react";
 
-class Portfolio extends React.Component{
-  render (){
+class Portfolio extends React.Component {
+  render() {
     return (
-        <div>
-            <h1>Sofen Chowdhury Portfolio</h1>
-        </div>
+      <div>
+        <h1>Portfolio</h1>
+      </div>
     );
   }
 }
