@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Portfolio from "./Components/Portfolio";
+import NewPortfolio from "./Components/NewPortfolio";
 
 function App() {
   return (
     <div>
       <Portfolio/>
+      <NewPortfolio/>
     </div>
     // <div className="App">
     //   <header className="App-header">
