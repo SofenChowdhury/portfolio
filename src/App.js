@@ -1,14 +1,21 @@
 // import logo from './logo.svg';
 // import './App.css';
+import './Portfolio.css';
+import Head from "./Components/Head";
 import Portfolio from "./Components/Portfolio";
 import NewPortfolio from "./Components/NewPortfolio";
 
 function App() {
   return (
-    <div>
-      <Portfolio/>
-      <NewPortfolio/>
-    </div>
+    <>
+      <header className="Portfolio-header">
+        <Head/>
+      </header>
+      <body className="Portfolio-body">
+        <Portfolio/>
+      </body>
+      {/* <NewPortfolio/> */}
+    </>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
